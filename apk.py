@@ -55,7 +55,7 @@ class apk(object):
 				print x
 			num += 1
 
-apk1 = apk("~/harvester/airwatch")
+apk1 = apk("~/harvester/test")
 #rootdir = 'test'
 #root_to_subtract = re.compile(r'^.*?' + rootdir + r'[\\/]{0,1}')
 def targetlist(folderarray):
@@ -84,35 +84,6 @@ email = targetsmali('email')
 
 test = comparedir(agent,email)
 
-'''
-for i in os.walk(targets['email']):
-	print i[0].split(targets['email'],1)[1].split('/',2)[-1]
-
-
-#smali1 = apk1.folders[0] + "/com.airwatch.workspace/smali"
-#smali2 = apk1.folders[1] + "/com.airwatch.email/smali"
-#print comparedir(smali1, smali2)
-
-#run this if you want to perform the ol roundabout with the apk files in the subfolders
-#apk1.start()
-
-#scan them for strings in your string list (~/stringlist.txt)
-#apk1.scan()
-
-
-#print os.path.isfile(apk.harvester.keystore)
-#print apk.harvester.keystore
-
-#apk.harvester.getkey()
-
-#apk.harvester.signapk(["/home/job/harvester/androidagent/dogent.apk"])
-#print tree("~/Documents/Code/Agent/android-agent.git/src", "", False)
-#apk.harvester.getapk()
-#print apk.harvester.apk
-#print apk.harvester.workingdir
-
-
-'''
 
 
 in1 = 2390840
